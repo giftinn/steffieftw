@@ -10,19 +10,7 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy 1st Mensiversary to the person who owns my heart, even from miles apart.
-  
-First of all, thank you for taking the time to open this little gift. I know it’s small, but it comes from a really genuine place in my heart. I just wanted to give you something that holds a piece of how grateful i am for you and for us.
-
-Thank you for being here, for staying, and for choosing to walk through these days with me. I appreciate the patience you show, the effort you give, and the way you keep showing up, even when things aren’t always smooth. Having you in my life brings a kind of comfort i didn’t know i needed.
-
-On our special day, i hope you take a little break and remember that you're so loved not just by the people around you, but especially by me.
-
-As we move into the months ahead, i hope we keep choosing each other. Through busy days, tired nights, small arguments, and happy moments. I hope we grow stronger, understand each other deeper, and keep building something that feels safe and real.
-
-You're my peace, my favorite person, and the one i always root for. I hope this message makes you feel how much I love and miss you.
- 
-Happy Mensive, my love`;
+  const fullText = `Loving you has never been loud or rushed, it came quietly, stayed gently, and slowly became smth I trust with my whole heart. In the way you exist, the way you care, and the way you let me be myself, I found a warmth that feels like home. You make the world softer just by being in it, and if I ever choose again, it would still be you without hesitation.`;
 
   useEffect(() => {
     let currentIndex = 0;
@@ -131,4 +119,5 @@ Happy Mensive, my love`;
 
 
 export default SecretLetterPage;
+
 
