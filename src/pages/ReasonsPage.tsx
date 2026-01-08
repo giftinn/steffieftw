@@ -17,38 +17,38 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
   const [reasons, setReasons] = useState<Reason[]>([
     {
       id: 1,
-      title: 'Your Dedication',
-      text: 'You never give up, even when things get hard.',
+      title: 'The Way You Exist',
+      text: 'You don’t try to be anyone else, and that quiet authenticity is what made me fall for you.',
       isRevealed: false
     },
     {
       id: 2,
-      title: 'Your Tenderness',
-      text: 'You make me feel loved every day.',
+      title: 'Your Kindness',
+      text: 'Your kindness shows even in the smallest things, especially when no one is watching.',
       isRevealed: false
     },
     {
       id: 3,
-      title: 'Your Humor',
-      text: 'You always make me laugh.',
+      title: 'You Make Things Feel Lighter',
+      text: 'With you, heavy days feel softer and breathing feels easier.',
       isRevealed: false
     },
     {
       id: 4,
-      title: 'Your Beauty',
-      text: 'Your soul is the most beautiful thing I\'ve ever known.',
+      title: 'You Let Me Be Me',
+      text: 'You allow me to be fully myself, without masks or expectations.',
       isRevealed: false
     },
     {
       id: 5,
-      title: 'Your Heart',
+      title: 'You Let Me Be Me',
       text: 'The way you love is everything I want.',
       isRevealed: false
     },
     {
       id: 6,
-      title: 'Our Future',
-      text: 'I can\'t wait for all our tomorrows together.',
+      title: 'You Feel Like Home',
+      text: 'Being with you feels like coming home to a place my heart recognizes.',
       isRevealed: false
     }
   ]);
@@ -197,5 +197,6 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     </div>
   );
 };
+
 
 export default ReasonsPage;
