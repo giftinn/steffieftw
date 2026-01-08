@@ -35,14 +35,14 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     },
     {
       id: 4,
-      title: 'You Let Me Be Me',
-      text: 'You allow me to be fully myself, without masks or expectations.',
+      title: 'The Way You Care',
+      text: 'You care gently and sincerely, in a way that makes people feel safe.',
       isRevealed: false
     },
     {
       id: 5,
       title: 'You Let Me Be Me',
-      text: 'The way you love is everything I want.',
+      text: 'You allow me to be fully myself, without masks or expectations.',
       isRevealed: false
     },
     {
@@ -200,3 +200,4 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
 
 
 export default ReasonsPage;
+
